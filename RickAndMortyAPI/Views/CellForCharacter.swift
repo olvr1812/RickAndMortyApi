@@ -22,6 +22,12 @@ class CellForCharacter: UITableViewCell {
         return indicator
     }()
     
+    private lazy var characterID: UILabel = {
+        let lbl = UILabel()
+        lbl.textColor = .white
+        return lbl
+    }()
+    
     private lazy var characterName: UILabel = {
         let lbl = UILabel()
         lbl.textColor = .white
@@ -48,6 +54,7 @@ class CellForCharacter: UITableViewCell {
         setCell()
         setViews()
         setAvatar()
+        setCharacterID()
         setCharecterName()
         setCharecterSpecies()
         setCharecterStatus()
@@ -58,16 +65,17 @@ class CellForCharacter: UITableViewCell {
         setCell()
         setViews()
         setAvatar()
+        setCharacterID()
         setCharecterName()
         setCharecterSpecies()
         setCharecterStatus()
     }
     
     func setInfo(info: Result) {
+        characterID.text = "ID: \(info.id)"
         characterName.text = "Name: \(info.name)"
         characterSpecies.text = "Species: \(info.species)"
         characterStatus.text = "Status: \(info.status)"
-        characterName.numberOfLines = 2
         avatar.downloaded(from: info.image)
     }
     
@@ -80,9 +88,18 @@ class CellForCharacter: UITableViewCell {
         })
     }
     
+    private func setCharacterID() {
+        characterID.snp.makeConstraints( {maker in
+            maker.top.equalToSuperview().inset(10)
+            maker.right.equalToSuperview().inset(10)
+            maker.height.equalTo(20)
+            maker.width.equalTo(150)
+        })
+    }
+    
     private func setCharecterName() {
         characterName.snp.makeConstraints({maker in
-            maker.top.equalToSuperview().inset(10)
+            maker.top.equalTo(characterID).inset(30)
             maker.right.equalToSuperview().inset(10)
             maker.height.equalTo(20)
             maker.width.equalTo(150)
@@ -121,6 +138,7 @@ class CellForCharacter: UITableViewCell {
     
     private func setViews() {
         self.addSubview(avatar)
+        self.addSubview(characterID)
         self.addSubview(characterName)
         self.addSubview(characterSpecies)
         self.addSubview(characterStatus)
@@ -130,7 +148,7 @@ class CellForCharacter: UITableViewCell {
         self.backgroundColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.4)
         self.clipsToBounds = true
         self.layer.cornerRadius = 10
-        self.layer.borderWidth = 2
+        self.layer.borderWidth = 0
     }
     
 }

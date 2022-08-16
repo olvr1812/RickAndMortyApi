@@ -26,6 +26,7 @@ class PageOfCharacterVC: UIViewController {
         super.viewDidLoad()
         pageOfCharacterView.tableEpisods.dataSource = self
         pageOfCharacterView.tableEpisods.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
+        pageOfCharacterView.tableEpisods.delegate = self
     }
     
     func setInfo(info: Result) {
@@ -50,6 +51,16 @@ extension PageOfCharacterVC: UITableViewDataSource {
         cell?.backgroundColor = UIColor(red: 1, green: 1, blue: 1, alpha: 0.4)
         return cell!
     }
-    
-    
+}
+
+extension PageOfCharacterVC: UITableViewDelegate {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        print("work")
+        guard let episods = episodsOfCharacter else { return }
+        let rootVC = CharactersInEpisodVC()
+        
+        rootVC.episodURL(url: episods[indexPath.row])
+        print(episods[indexPath.row])
+        navigationController?.pushViewController(rootVC, animated: true)
+    }
 }

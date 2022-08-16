@@ -50,6 +50,7 @@ class CharactersVC: UIViewController {
     @objc private func prevPageAction(sender: UIBarButtonItem) {
         guard let prevPageURL = prevPage else { return }
         self.characters.removeAll()
+        charactersView.tableCharacters.reloadData()
         NetworkManager.shared.getJSON(url: prevPageURL, complition: {complition in
             DispatchQueue.main.async {
                 for i in complition.results {

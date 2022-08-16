@@ -23,7 +23,7 @@ class PageOfCharacterView: UIView {
         image.frame = CGRect(x: 0, y: 0, width: 300, height: 300)
         image.clipsToBounds = true
         image.layer.cornerRadius = 150
-        image.layer.borderWidth = 3
+//        image.layer.borderWidth = 3
         return image
     }()
     

@@ -28,4 +28,23 @@ class NetworkManager {
             }
         }.resume()
     }
+    
+    func getCharacters(url: String?, complition: @escaping(CharactersInEpisod) -> Void) {
+        guard let urlRequest = url, let request = URL(string: urlRequest) else { return }
+        URLSession.shared.dataTask(with: request) { data, response, error in
+            if let error = error {
+                print(error.localizedDescription)
+                      return }
+            
+            guard let json = data else { return }
+            
+            do
+            {
+                let charactersJSON = try JSONDecoder().decode(CharactersInEpisod.self, from: json)
+                complition(charactersJSON)
+            } catch {
+                print(error.localizedDescription)
+            }
+        }.resume()
+    }
 }
