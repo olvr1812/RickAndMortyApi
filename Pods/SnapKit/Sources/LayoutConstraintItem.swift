@@ -75,10 +75,8 @@ extension LayoutConstraintItem {
             constraintsSet.remove(constraint)
         }
     }
-    
     private var constraintsSet: NSMutableSet {
         let constraintsSet: NSMutableSet
-        
         if let existing = objc_getAssociatedObject(self, &constraintsKey) as? NSMutableSet {
             constraintsSet = existing
         } else {
@@ -88,6 +86,5 @@ extension LayoutConstraintItem {
         return constraintsSet
         
     }
-    
 }
 private var constraintsKey: UInt8 = 0

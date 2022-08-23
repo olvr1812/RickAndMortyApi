@@ -6,6 +6,7 @@ target 'RickAndMortyAPI' do
   use_frameworks!
 
 pod 'SnapKit', '~> 5.6.0'
+pod 'SwiftLint'
 
   # Pods for Homework 4 - toDoList
 

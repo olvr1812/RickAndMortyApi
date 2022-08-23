@@ -1,0 +1,8 @@
+line_length:
+- 200 # warning
+- 300 # error
+excluded:
+  - Pods
+disabled_rules:
+- trailing_whitespace
+- identifier_name

@@ -16,6 +16,7 @@
 		F91527AA28AA2DE300B92788 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F91527A828AA2DE300B92788 /* LaunchScreen.storyboard */; };
 		F91527B228AA371C00B92788 /* CharactersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91527B128AA371C00B92788 /* CharactersVC.swift */; };
 		F91527B828AA419300B92788 /* CharactersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91527B728AA419300B92788 /* CharactersView.swift */; };
+		F926E3DF28B55C5E00056998 /* CellForPageOfCharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F926E3DE28B55C5E00056998 /* CellForPageOfCharacterView.swift */; };
 		F94AD8C628AA627D007CA1BA /* CellForCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94AD8C528AA627D007CA1BA /* CellForCharacter.swift */; };
 		F94AD8C828AA77FD007CA1BA /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94AD8C728AA77FD007CA1BA /* NetworkManager.swift */; };
 		F94AD8CA28AA7DF1007CA1BA /* CharactersJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94AD8C928AA7DF1007CA1BA /* CharactersJSON.swift */; };
@@ -25,6 +26,10 @@
 		F94AD8D328AC2C9C007CA1BA /* CharactersInEpisodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94AD8D228AC2C9C007CA1BA /* CharactersInEpisodView.swift */; };
 		F94AD8D528AC2CF0007CA1BA /* CharactersInEpisodVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94AD8D428AC2CF0007CA1BA /* CharactersInEpisodVC.swift */; };
 		F94AD8D728AC2F39007CA1BA /* EpisodJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94AD8D628AC2F39007CA1BA /* EpisodJSON.swift */; };
+		F95745BE28B24A6B00B4DCDF /* HeaderForCharactersInEpisod.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95745BD28B24A6B00B4DCDF /* HeaderForCharactersInEpisod.swift */; };
+		F96D6B2628AF6EC800182E55 /* viewSizes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96D6B2528AF6EC800182E55 /* viewSizes.swift */; };
+		F9AAAE4A28B25DC300139FDE /* CellForCharactersInEpisod.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AAAE4928B25DC300139FDE /* CellForCharactersInEpisod.swift */; };
+		F9D133F428AE2E1600FF38AE /* HeaderForPageOfCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D133F328AE2E1600FF38AE /* HeaderForPageOfCharacters.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +46,7 @@
 		F91527AB28AA2DE300B92788 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F91527B128AA371C00B92788 /* CharactersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersVC.swift; sourceTree = "<group>"; };
 		F91527B728AA419300B92788 /* CharactersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersView.swift; sourceTree = "<group>"; };
+		F926E3DE28B55C5E00056998 /* CellForPageOfCharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellForPageOfCharacterView.swift; sourceTree = "<group>"; };
 		F94AD8C528AA627D007CA1BA /* CellForCharacter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellForCharacter.swift; sourceTree = "<group>"; };
 		F94AD8C728AA77FD007CA1BA /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		F94AD8C928AA7DF1007CA1BA /* CharactersJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersJSON.swift; sourceTree = "<group>"; };
@@ -50,6 +56,10 @@
 		F94AD8D228AC2C9C007CA1BA /* CharactersInEpisodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersInEpisodView.swift; sourceTree = "<group>"; };
 		F94AD8D428AC2CF0007CA1BA /* CharactersInEpisodVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersInEpisodVC.swift; sourceTree = "<group>"; };
 		F94AD8D628AC2F39007CA1BA /* EpisodJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodJSON.swift; sourceTree = "<group>"; };
+		F95745BD28B24A6B00B4DCDF /* HeaderForCharactersInEpisod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderForCharactersInEpisod.swift; sourceTree = "<group>"; };
+		F96D6B2528AF6EC800182E55 /* viewSizes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewSizes.swift; sourceTree = "<group>"; };
+		F9AAAE4928B25DC300139FDE /* CellForCharactersInEpisod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellForCharactersInEpisod.swift; sourceTree = "<group>"; };
+		F9D133F328AE2E1600FF38AE /* HeaderForPageOfCharacters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderForPageOfCharacters.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,10 +147,9 @@
 		F91527B528AA414000B92788 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				F91527B728AA419300B92788 /* CharactersView.swift */,
-				F94AD8C528AA627D007CA1BA /* CellForCharacter.swift */,
-				F94AD8CE28ABD47D007CA1BA /* PageOfCharacterView.swift */,
-				F94AD8D228AC2C9C007CA1BA /* CharactersInEpisodView.swift */,
+				F9D133F128AE2DB800FF38AE /* CharactersView */,
+				F9D133F228AE2DE600FF38AE /* PageOfCharactersView */,
+				F95745BC28B2490A00B4DCDF /* CharactersInEpisodView */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -160,8 +169,38 @@
 			isa = PBXGroup;
 			children = (
 				F94AD8CC28ABBF2B007CA1BA /* ImageDownloaded.swift */,
+				F96D6B2528AF6EC800182E55 /* viewSizes.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F95745BC28B2490A00B4DCDF /* CharactersInEpisodView */ = {
+			isa = PBXGroup;
+			children = (
+				F94AD8D228AC2C9C007CA1BA /* CharactersInEpisodView.swift */,
+				F95745BD28B24A6B00B4DCDF /* HeaderForCharactersInEpisod.swift */,
+				F9AAAE4928B25DC300139FDE /* CellForCharactersInEpisod.swift */,
+			);
+			path = CharactersInEpisodView;
+			sourceTree = "<group>";
+		};
+		F9D133F128AE2DB800FF38AE /* CharactersView */ = {
+			isa = PBXGroup;
+			children = (
+				F91527B728AA419300B92788 /* CharactersView.swift */,
+				F94AD8C528AA627D007CA1BA /* CellForCharacter.swift */,
+			);
+			path = CharactersView;
+			sourceTree = "<group>";
+		};
+		F9D133F228AE2DE600FF38AE /* PageOfCharactersView */ = {
+			isa = PBXGroup;
+			children = (
+				F94AD8CE28ABD47D007CA1BA /* PageOfCharacterView.swift */,
+				F9D133F328AE2E1600FF38AE /* HeaderForPageOfCharacters.swift */,
+				F926E3DE28B55C5E00056998 /* CellForPageOfCharacterView.swift */,
+			);
+			path = PageOfCharactersView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,6 +210,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F91527AE28AA2DE300B92788 /* Build configuration list for PBXNativeTarget "RickAndMortyAPI" */;
 			buildPhases = (
+				F94C497528AD66460046C5E2 /* ShellScript */,
 				F3EE90AE72DF4D4136A90F9D /* [CP] Check Pods Manifest.lock */,
 				F915279328AA2DE200B92788 /* Sources */,
 				F915279428AA2DE200B92788 /* Frameworks */,
@@ -272,6 +312,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		F94C497528AD66460046C5E2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -282,13 +339,18 @@
 				F91527B228AA371C00B92788 /* CharactersVC.swift in Sources */,
 				F94AD8C828AA77FD007CA1BA /* NetworkManager.swift in Sources */,
 				F94AD8CD28ABBF2B007CA1BA /* ImageDownloaded.swift in Sources */,
+				F96D6B2628AF6EC800182E55 /* viewSizes.swift in Sources */,
 				F94AD8C628AA627D007CA1BA /* CellForCharacter.swift in Sources */,
+				F95745BE28B24A6B00B4DCDF /* HeaderForCharactersInEpisod.swift in Sources */,
 				F94AD8CA28AA7DF1007CA1BA /* CharactersJSON.swift in Sources */,
 				F91527B828AA419300B92788 /* CharactersView.swift in Sources */,
 				F91527A528AA2DE200B92788 /* RickAndMortyAPI.xcdatamodeld in Sources */,
 				F915279B28AA2DE200B92788 /* AppDelegate.swift in Sources */,
 				F915279D28AA2DE200B92788 /* SceneDelegate.swift in Sources */,
 				F94AD8D128ABD4D0007CA1BA /* PageOfCharacterVC.swift in Sources */,
+				F9AAAE4A28B25DC300139FDE /* CellForCharactersInEpisod.swift in Sources */,
+				F926E3DF28B55C5E00056998 /* CellForPageOfCharacterView.swift in Sources */,
+				F9D133F428AE2E1600FF38AE /* HeaderForPageOfCharacters.swift in Sources */,
 				F94AD8D328AC2C9C007CA1BA /* CharactersInEpisodView.swift in Sources */,
 				F94AD8CF28ABD47D007CA1BA /* PageOfCharacterView.swift in Sources */,
 				F94AD8D528AC2CF0007CA1BA /* CharactersInEpisodVC.swift in Sources */,

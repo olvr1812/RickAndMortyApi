@@ -26,4 +26,3 @@ struct Info: Decodable {
     let next: String?
     let prev: String?
 }
-
